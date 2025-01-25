@@ -1,0 +1,49 @@
+1  RECIBO: 2025-01-23_08:25:23   authenticate :  Autenticando al usuario  IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_08:25:24   authenticate :  400 400,ERROR EN EL INGRESO DE DATOS Demoro: 211   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_09:18:08   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_09:18:09   authenticate :  Token created successfully Demoro: 653   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+2  RECIBO: 2025-01-23_09:20:49   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+2  RESPONDO: 2025-01-23_09:20:49   authenticate :  Token created successfully Demoro: 436   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+3  RECIBO: 2025-01-23_09:24:49   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+3  RESPONDO: 2025-01-23_09:24:50   authenticate :  Token created successfully Demoro: 288   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+4  RECIBO: 2025-01-23_09:24:55   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+4  RESPONDO: 2025-01-23_09:24:56   authenticate :  Token created successfully Demoro: 308   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+5  RECIBO: 2025-01-23_09:25:15   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+5  RESPONDO: 2025-01-23_09:25:15   authenticate :  Token created successfully Demoro: 296   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_09:34:54   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RECIBO: 2025-01-23_09:35:53   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_09:35:54   authenticate :  Token created successfully Demoro: 352   Connid: null  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_11:29:24   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_11:29:25   authenticate :  Token created successfully Demoro: 639  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+2  RECIBO: 2025-01-23_11:29:29   CrearUsuario :  UsuarioRequestDto{Nombre='null', Apellidos='null'} IP_CONSUMO: 0:0:0:0:0:0:0:1
+2  RESPONDO: 2025-01-23_11:29:29   consultaliente :  ERROR EN EL INGRESO DE DATOS Demoro: 17  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+3  RECIBO: 2025-01-23_11:29:36   CrearUsuario :  UsuarioRequestDto{Nombre='null', Apellidos='null'} IP_CONSUMO: 0:0:0:0:0:0:0:1
+3  RESPONDO: 2025-01-23_11:29:36   consultaliente :  ERROR EN EL INGRESO DE DATOS Demoro: 12  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_11:30:21   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_11:30:21   authenticate :  Token created successfully Demoro: 744  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+2  RECIBO: 2025-01-23_11:30:25   CrearUsuario :  UsuarioRequestDto{Nombre='null', Apellidos='null'} IP_CONSUMO: 0:0:0:0:0:0:0:1
+2  RESPONDO: 2025-01-23_11:30:25   consultaliente :  ERROR EN EL INGRESO DE DATOS Demoro: 23  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_11:34:52   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_11:34:53   authenticate :  Token created successfully Demoro: 1275  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+2  RECIBO: 2025-01-23_11:35:38   CrearUsuario :  UsuarioRequestDto{Nombre='null', Apellidos='null'} IP_CONSUMO: 0:0:0:0:0:0:0:1
+2  RESPONDO: 2025-01-23_11:35:47   consultaliente :  ERROR EN EL INGRESO DE DATOS Demoro: 43619  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+1  RECIBO: 2025-01-23_11:38:48   authenticate :  Autenticando al usuario ApiPruebatecnica IP_CONSUMO: 0:0:0:0:0:0:0:1
+1  RESPONDO: 2025-01-23_11:38:49   authenticate :  Token created successfully Demoro: 1014  IP_CONSUMO: 0:0:0:0:0:0:0:1
+
+2  RECIBO: 2025-01-23_11:39:02   CrearUsuario :  UsuarioRequestDto{Nombre='Carlos', Apellidos='Aristizabal'} IP_CONSUMO: 0:0:0:0:0:0:0:1
+2  RESPONDO: 2025-01-23_11:39:38   consultaliente :  ERROR EN EL INGRESO DE DATOS Demoro: 39773  IP_CONSUMO: 0:0:0:0:0:0:0:1
+

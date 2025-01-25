@@ -1,0 +1,120 @@
+2025-01-24_12:13:00 ------> Error al crear el usuarionull
+
+2025-01-24_12:17:00 ------> Error al crear el usuarionull
+
+2025-01-24_12:19:01 ------> Token expired ---> JWT expired at 2025-01-24T00:17:27Z. Current time: 2025-01-24T00:19:01Z, a difference of 94291 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_12:19:06 ------> Error al crear el usuarionull
+
+2025-01-24_12:23:09 ------> Token expired ---> JWT expired at 2025-01-24T00:19:34Z. Current time: 2025-01-24T00:23:09Z, a difference of 215179 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_12:23:41 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:25:50 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:27:33 ------> Token expired ---> JWT expired at 2025-01-24T00:25:10Z. Current time: 2025-01-24T00:27:33Z, a difference of 143897 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_12:31:17 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:32:22 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:44:52 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:47:13 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:49:35 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:52:24 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:55:35 ------> Token expired ---> JWT expired at 2025-01-24T00:52:51Z. Current time: 2025-01-24T00:55:35Z, a difference of 164098 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_12:55:42 ------> Error al crear el usuariojava.lang.NullPointerException
+
+2025-01-24_12:57:40 ------> Token expired ---> JWT expired at 2025-01-24T00:56:10Z. Current time: 2025-01-24T00:57:40Z, a difference of 90310 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_12:59:15 ------> Token expired ---> JWT expired at 2025-01-24T00:58:14Z. Current time: 2025-01-24T00:59:14Z, a difference of 60992 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:11:26 ------> ERROR EN EL INGRESO DE DATOS
+
+2025-01-24_01:12:13 ------> Token expired ---> JWT expired at 2025-01-24T01:11:15Z. Current time: 2025-01-24T01:12:13Z, a difference of 58123 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:21:30 ------> Token expired ---> JWT expired at 2025-01-24T01:12:47Z. Current time: 2025-01-24T01:21:30Z, a difference of 523442 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:35:18 ------> Token expired ---> JWT expired at 2025-01-24T01:34:49Z. Current time: 2025-01-24T01:35:18Z, a difference of 29120 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:36:10 ------> Token expired ---> JWT expired at 2025-01-24T01:35:53Z. Current time: 2025-01-24T01:36:10Z, a difference of 17779 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:36:59 ------> Token expired ---> JWT expired at 2025-01-24T01:36:50Z. Current time: 2025-01-24T01:36:59Z, a difference of 9550 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:37:04 ------> ERROR EN EL INGRESO DE DATOS
+
+2025-01-24_01:46:00 ------> Token expired ---> JWT expired at 2025-01-24T01:37:32Z. Current time: 2025-01-24T01:46:00Z, a difference of 508688 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_01:47:40 ------> Token expired ---> JWT expired at 2025-01-24T01:46:56Z. Current time: 2025-01-24T01:47:40Z, a difference of 44228 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:47:31 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:49:45 ------> Token expired ---> JWT expired at 2025-01-24T02:47:59Z. Current time: 2025-01-24T02:49:45Z, a difference of 106287 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:49:50 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:52:05 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:55:54 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:57:18 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:00:02 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:01:51 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:07:40 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:08:52 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:11:51 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NullPointerException ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:22:41 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @244db39a; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:30:22 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "ABIERTO" ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:37:56 ------> Error al crear el Ticketorg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+
+2025-01-24_03:40:01 ------> Token expired ---> JWT expired at 2025-01-24T03:37:54Z. Current time: 2025-01-24T03:40:01Z, a difference of 127746 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_03:40:22 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @753f228f; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:44:37 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @f266fe2; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:47:28 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @10d8edb9; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:55:10 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @669e5946; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_04:01:12 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.TicketEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.TicketEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @4a635ef9; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_04:08:08 ------> Token expired ---> JWT expired at 2025-01-24T04:07:23Z. Current time: 2025-01-24T04:08:08Z, a difference of 45667 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_04:26:32 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.UsuarioEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.UsuarioEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @2c07b0ca; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_04:26:39 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.UsuarioEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.UsuarioEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @2c07b0ca; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_04:27:25 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.UsuarioEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.UsuarioEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @2c07b0ca; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_04:27:54 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class java.lang.String (java.util.ArrayList and java.lang.String are in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:35:20 ------> Token expired ---> JWT expired at 2025-01-24T14:28:34Z. Current time: 2025-01-24T14:35:20Z, a difference of 406114 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:35:44 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.UsuarioEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.UsuarioEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @34401697; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:36:56 ------> Token expired ---> JWT expired at 2025-01-24T14:35:58Z. Current time: 2025-01-24T14:36:56Z, a difference of 58377 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:38:25 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class com.ApiPruebatecnica.Entity.UsuarioEntity cannot be cast to class java.lang.String (com.ApiPruebatecnica.Entity.UsuarioEntity is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3ad7f82b; java.lang.String is in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_02:41:02 ------> Token expired ---> JWT expired at 2025-01-24T14:37:32Z. Current time: 2025-01-24T14:41:02Z, a difference of 210819 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:41:51 ------> Token expired ---> JWT expired at 2025-01-24T14:41:42Z. Current time: 2025-01-24T14:41:51Z, a difference of 9824 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-24_02:57:04 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class java.lang.String (java.util.ArrayList and java.lang.String are in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-24_03:00:37 ------> Excepcion no controlada en token---> Request processing failed; nested exception is java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class java.lang.String (java.util.ArrayList and java.lang.String are in module java.base of loader 'bootstrap') ------> Revise el usuario, contraseña o si expiró el token
+

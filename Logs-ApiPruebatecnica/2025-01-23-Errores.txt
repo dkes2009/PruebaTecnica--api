@@ -1,0 +1,22 @@
+2025-01-23_08:25:24 ------> ERROR EN EL INGRESO DE DATOS: java.lang.NullPointerException
+
+2025-01-23_08:25:24 ------> ERROR EN EL INGRESO DE DATOS
+
+2025-01-23_09:34:54 ------> Excepcion no controlada en token---> Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: com/ApiPruebatecnica/DTO/TokenResponseDto ------> Revise el usuario, contraseña o si expiró el token
+
+2025-01-23_11:29:29 ------> ERROR EN EL INGRESO DE DATOS connid: 
+
+2025-01-23_11:29:36 ------> ERROR EN EL INGRESO DE DATOS connid: 
+
+2025-01-23_11:30:16 ------> Token expired ---> JWT expired at 2025-01-23T23:29:55Z. Current time: 2025-01-23T23:30:16Z, a difference of 21829 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-23_11:30:25 ------> ERROR EN EL INGRESO DE DATOS connid: 
+
+2025-01-23_11:34:47 ------> Token expired ---> JWT expired at 2025-01-23T23:30:51Z. Current time: 2025-01-23T23:34:47Z, a difference of 236371 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-23_11:35:47 ------> ERROR EN EL INGRESO DE DATOS connid: 
+
+2025-01-23_11:38:36 ------> Token expired ---> JWT expired at 2025-01-23T23:35:23Z. Current time: 2025-01-23T23:38:36Z, a difference of 193515 milliseconds.  Allowed clock skew: 0 milliseconds.
+
+2025-01-23_11:39:38 ------> ERROR EN EL INGRESO DE DATOS connid: 
+
