@@ -1,37 +1,155 @@
-# README #
-ExplicaicoComponente ApiPruebatecnica
+# API Prueba Técnica: User and Ticket Management System
 
+This project is a Spring Boot application that provides RESTful API endpoints for managing users and tickets, with JWT-based authentication.
 
-COMPONENTE:  ApiPruebatecnica
-Este proyecto es una Api de creacion de Usuarios y de tickets que cumple con los requisistos necesarios para 
-la prueba tecnica
-esta API elaborada en spring boot 2.2.7, usa una conexion de base de datos en H2, base que se guarda en memoria
-con la siguiente URL http://localhost:8080/h2-console/login.do?jsessionid=fd6e12b956b922f17d82e6f69dca4982
-como usuario: " sa " y la contraseña: "password"
-como seguridad cuenta con una autenticacion JWT donde se contiene una 
-secrekey "token.secrect.key =3TX#d8d*TZxNG881Yf8W5"
-para la configuracion del mismo JWT como a su ves se realiza la creacion de un Usuario y contraña para realiza los consimos
-de los endpoint, cada endpoint usa un JWT esto con el fin de tener uso exclusivo de consumos permitidos a solo los usuarios validos
-generar um tocket
+The API Prueba Técnica is designed to handle user registration, authentication, and ticket management operations. It incorporates robust security measures, including JWT token-based authentication, and provides comprehensive logging for monitoring and troubleshooting.
 
+## Repository Structure
+
+```
+.
+├── Documentacion
+│   └── ColleccionPostman
+│       └── PruebaTecnica.postman_collection.json
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── ApiPruebatecnica
+│       │           ├── ApiPruebatecnicaApplication.java
+│       │           ├── Config
+│       │           ├── Controller
+│       │           ├── DTO
+│       │           ├── Entity
+│       │           ├── Repository
+│       │           ├── Service
+│       │           ├── ServiceImpl
+│       │           └── utils
+│       └── resources
+│           ├── application-dev.properties
+│           ├── application.properties
+│           └── templates
+│               └── index.html
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
+```
+
+Key Files:
+- `ApiPruebatecnicaApplication.java`: Main entry point for the Spring Boot application
+- `ConsumeController.java`: Handles API endpoints for user and ticket operations
+- `JwtRequestFilter.java`: Intercepts and validates JWT tokens in incoming requests
+- `WebSecurityConfig.java`: Configures security settings for the application
+- `ConsumoServiceImpl.java`: Implements business logic for user and ticket management
+- `JwtUtilService.java`: Provides utility methods for JWT token generation and validation
+- `pom.xml`: Maven project configuration file
+
+## Usage Instructions
+
+### Installation
+
+Prerequisites:
+- Java 11
+- Maven 3.6+
+
+Steps:
+1. Clone the repository
+2. Navigate to the project root directory
+3. Run `mvn clean install` to build the project and download dependencies
+
+### Getting Started
+
+1. Start the application:
+   ```
+   mvn spring-boot:run
+   ```
+2. The API will be available at `http://localhost:8080` (default port)
+
+### Configuration
+
+Key configuration files:
+- `application.properties`: Main configuration file
+- `application-dev.properties`: Development-specific configuration
+
+Important properties:
+- `application.name`: Application name used in JWT tokens
+- `token.secrect.key`: Secret key for JWT token generation
+- `token.time`: JWT token expiration time
+
+### API Endpoints
+
+1. User Management:
+   - Create User: `POST /CrearUsuario`
+   - Update User: `POST /ActualizarUsuario`
+   - List Users: `POST /ListarUsuario`
+   - Get User: `POST /ConsultarUsuario`
+
+2. Ticket Management:
+   - Create Ticket: `POST /CrearTicket`
+   - Edit Ticket: `POST /EditarTicket`
+   - Delete Ticket: `POST /EliminarTicket`
+
+3. Authentication:
+   - Authenticate: `POST /authenticate`
+
+Example (Create User):
+```json
+POST /CrearUsuario
 {
-"userName": "ApiPruebatecnica",
-"password": "123456"
+  "nombre": "John",
+  "apellidos": "Doe"
 }
+```
 
-ademas la contraseña al guardarla en la base de datos se en encryta con BCrypt 
+### Testing & Quality
 
-se adjunta la collecion de postman para realizar las pruebas de cada uno de los endpoint
-" PruebaTecnica.postman_collection.json "
+To run tests:
+```
+mvn test
+```
 
+### Troubleshooting
 
-Ambiente Pasos para la Instalacion
-Para este ambiente es necesario tener java 11 openJDK
+Common issues:
 
-se recomienda antes de subir el servicio mandar por consola o ayudas de maven el comando "mvn clean"
+1. JWT Token Expiration
+   - Error: "JWT token has expired"
+   - Solution: Ensure the client is using a valid, non-expired token. Check the `token.time` property in the configuration.
 
+2. Database Connection Issues
+   - Error: "Could not connect to database"
+   - Steps:
+     1. Check database credentials in `application.properties`
+     2. Ensure the database server is running and accessible
+     3. Verify network connectivity to the database server
 
+Debugging:
+- Enable debug logging by adding `logging.level.root=DEBUG` to `application.properties`
+- Check log files in the `Logs-ApiPruebatecnica` directory
 
-Servidores: localhost
-puerto 8080
-	
+Performance Optimization:
+- Monitor database query performance
+- Use JProfiler or VisualVM for performance profiling
+- Consider caching frequently accessed data
+
+## Data Flow
+
+The request data flow through the application follows these steps:
+
+1. Client sends a request to an API endpoint
+2. `JwtRequestFilter` intercepts the request and validates the JWT token
+3. If the token is valid, the request is passed to the appropriate controller
+4. The controller validates the input data using the `Validaciones` class
+5. The controller calls the corresponding service method
+6. The service implements the business logic, interacting with repositories as needed
+7. The repository performs database operations
+8. The service processes the result and returns it to the controller
+9. The controller formats the response and sends it back to the client
+
+```
+Client -> JwtRequestFilter -> Controller -> Service -> Repository -> Database
+       <-                 <-            <-         <-            <-
+```
+
+Note: All operations are logged using the `Utils` class for monitoring and troubleshooting purposes.
